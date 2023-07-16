@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-primary text-white p-4">
+        <h1>Bookstore</h1>
+    </header>
+    <main class="container my-4">
+        <div class="row">
+            <aside class="col-md-3">
+                <h2>Categories</h2>
+                <div id="category-list">
+                    <!-- Categories will be populated here -->
+                </div>
+            </aside>
+            <section class="col-md-6">
+                <h2>Book List</h2>
+                <div class="row" id="books-list">
+                    <!-- Books will be populated here -->
+                </div>
+                <nav>
+                    <ul class="pagination justify-content-center">
+                        <!-- Pagination buttons will be populated here -->
+                    </ul>
+                </nav>
+            </section>
+            <aside class="col-md-3">
+                <h2>Book Details</h2>
+                <div id="book-details">
+                    <!-- Book details will be displayed here -->
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="bg-dark text-white p-4">
+        <p>&copy; 2023 Bookstore</p>
+    </footer>
+
+    <!-- Add Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Add your JS file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
